@@ -1,0 +1,11 @@
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\MyServer.dll
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\MyServer.pdb
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\ExitGamesLibs.dll
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\Photon.SocketServer.dll
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\ExitGamesLibs.pdb
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\ExitGamesLibs.xml
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\Photon.SocketServer.pdb
+F:\GitHub\WorkRepository\MyServer\MyServer\bin\Release\Photon.SocketServer.xml
+F:\GitHub\WorkRepository\MyServer\MyServer\obj\Release\MyServer.dll
+F:\GitHub\WorkRepository\MyServer\MyServer\obj\Release\MyServer.pdb
+F:\GitHub\WorkRepository\MyServer\MyServer\obj\Release\MyServer.csprojResolveAssemblyReference.cache

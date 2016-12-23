@@ -1,0 +1,18 @@
+6604: 10:28:30.938 - ---
+6604: 10:28:30.938 - Service: "Photon Socket Server" starting
+6604: 10:28:30.939 - Config File: F:\GitHub\WorkRepository\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+6604: 10:28:30.939 - Will produce at most: 10 crash dumps
+6604: 10:28:30.940 - Service shutting down
+6604: 10:28:30.942 - Service shut down complete
+2816: 11:09:05.417 - ---
+2816: 11:09:05.417 - Service: "Photon Socket Server" starting
+2816: 11:09:05.418 - Config File: F:\GitHub\WorkRepository\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+2816: 11:09:05.420 - Will produce at most: 10 crash dumps
+2816: 11:09:05.420 - Service shutting down
+2816: 11:09:05.426 - Service shut down complete
+13876: 16:23:18.148 - ---
+13876: 16:23:18.148 - Service: "Photon Socket Server" starting
+13876: 16:23:18.148 - Config File: F:\GitHub\WorkRepository\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+13876: 16:23:18.149 - Will produce at most: 10 crash dumps
+13876: 16:23:18.149 - Service shutting down
+13876: 16:23:18.151 - Service shut down complete

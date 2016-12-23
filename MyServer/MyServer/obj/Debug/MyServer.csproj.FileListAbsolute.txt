@@ -1,0 +1,5 @@
+F:\GitHub\WorkRepository\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyServer\bin\MyServer.dll
+F:\GitHub\WorkRepository\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyServer\bin\MyServer.pdb
+F:\GitHub\WorkRepository\MyServer\MyServer\obj\Debug\MyServer.csprojResolveAssemblyReference.cache
+F:\GitHub\WorkRepository\MyServer\MyServer\obj\Debug\MyServer.dll
+F:\GitHub\WorkRepository\MyServer\MyServer\obj\Debug\MyServer.pdb
