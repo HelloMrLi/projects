@@ -38,14 +38,18 @@ public class PhotonSocket : MonoBehaviour, IPhotonPeerListener
         state = ClientState.DisConnect;
         peer = new PhotonPeer(this, ConnectionProtocol.Udp);
         peer.Connect(address, Server);
-        //peer.Connect("788" + ":5055", Server);
+       // //peer.Connect("788" + ":5055", Server);
         //peer.Connect("1v62708w05.imwork.net:21524", Server);
 
     }
 
     public void OnClickConect()
     {
-        peer.Connect(inputFieldIp.text + ":5055", Server);
+        Dictionary<byte, object> dict = new Dictionary<byte, object>();
+        dict.Add(1,"123");
+        dict.Add(2,"1234");
+        //peer.Connect(inputFieldIp.text + ":5055", Server);
+        SendMessage((byte)OpCodeEnum.Login, dict);
     }
 
     public void SendMessage(byte Code, Dictionary<byte, object> param)
