@@ -1,0 +1,24 @@
+2088: 17:57:38.990 - ---
+2088: 17:57:38.990 - Service: "Photon Socket Server" starting
+2088: 17:57:38.990 - Config File: E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+2088: 17:57:38.991 - Will produce at most: 10 crash dumps
+2088: 17:57:38.992 - Service shutting down
+2088: 17:57:38.992 - Service shut down complete
+4636: 18:05:22.568 - ---
+4636: 18:05:22.568 - Service: "Photon Socket Server" starting
+4636: 18:05:22.569 - Config File: E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+4636: 18:05:22.576 - Will produce at most: 10 crash dumps
+4636: 18:05:22.576 - Service shutting down
+4636: 18:05:22.580 - Service shut down complete
+4908: 18:15:33.229 - ---
+4908: 18:15:33.229 - Service: "Photon Socket Server" starting
+4908: 18:15:33.230 - Config File: E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+4908: 18:15:33.232 - Will produce at most: 10 crash dumps
+4908: 18:15:33.232 - Service shutting down
+4908: 18:15:33.234 - Service shut down complete
+6000: 18:19:04.152 - ---
+6000: 18:19:04.152 - Service: "Photon Socket Server" starting
+6000: 18:19:04.152 - Config File: E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\PhotonServer.config
+6000: 18:19:04.154 - Will produce at most: 10 crash dumps
+6000: 18:19:04.154 - Service shutting down
+6000: 18:19:04.154 - Service shut down complete
