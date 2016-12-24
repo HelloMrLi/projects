@@ -1,0 +1,15 @@
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\ExitGames.Logging.Log4Net.dll
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\ExitGamesLibs.dll
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\log4net.dll
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\Photon.SocketServer.dll
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\ExitGames.Logging.Log4Net.pdb
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\ExitGames.Logging.Log4Net.xml
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\ExitGamesLibs.pdb
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\ExitGamesLibs.xml
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\Photon.SocketServer.pdb
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\Photon.SocketServer.xml
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\obj\Release\OestsServer.csprojResolveAssemblyReference.cache
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\OestsServer.dll
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\bin\Release\OestsServer.pdb
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\obj\Release\OestsServer.dll
+E:\GithubRepositories\OESTS\projects-master\MyServer\MyServer\obj\Release\OestsServer.pdb
