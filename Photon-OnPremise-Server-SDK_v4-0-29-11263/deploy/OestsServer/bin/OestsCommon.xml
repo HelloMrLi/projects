@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OestsCommon</name>
+    </assembly>
+    <members>
+        <member name="T:OestsCommon.OperationCode">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="F:OestsCommon.OperationCode.Login">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="F:OestsCommon.OperationCode.LoadServer">
+            <summary>
+            加载服务器
+            </summary>
+        </member>
+    </members>
+</doc>

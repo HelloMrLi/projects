@@ -59,7 +59,6 @@
     <Compile Include="ChatPeer.cs" />
     <Compile Include="Handlers\HandlerBase.cs" />
     <Compile Include="Handlers\LoginHandler.cs" />
-    <Compile Include="Message.cs" />
     <Compile Include="OestsApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

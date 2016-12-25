@@ -3,3 +3,4 @@ E:\GithubRepositories\OESTS\projects-master\OestsServer\OestsCommon\bin\Debug\Oe
 E:\GithubRepositories\OESTS\projects-master\OestsServer\OestsCommon\obj\Debug\OestsCommon.csprojResolveAssemblyReference.cache
 E:\GithubRepositories\OESTS\projects-master\OestsServer\OestsCommon\obj\Debug\OestsCommon.dll
 E:\GithubRepositories\OESTS\projects-master\OestsServer\OestsCommon\obj\Debug\OestsCommon.pdb
+E:\GithubRepositories\OESTS\projects-master\OestsServer\OestsCommon\bin\Debug\OestsCommon.XML

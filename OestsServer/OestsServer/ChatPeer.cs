@@ -1,17 +1,18 @@
 ﻿using System.Collections;
 using Photon.SocketServer;
 using PhotonHostRuntimeInterfaces;
-using OestsServer.Message;
+using OestsCommon;
+using OestsServer.Handlers;
+using ExitGames.Logging;
 
 namespace OestsServer
 {
    public class ChatPeer:ClientPeer
     {
-        Hashtable userTabel;
+        private static readonly ILogger log = ExitGames.Logging.LogManager.GetCurrentClassLogger();
         public ChatPeer(InitRequest initRequest) : base(initRequest)
         {
-            userTabel = new Hashtable();
-            userTabel.Add("123", "1234");
+           
         }
 
         protected override void OnDisconnect(DisconnectReason reasonCode, string reasonDetail)
@@ -21,23 +22,19 @@ namespace OestsServer
 
         protected override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters)
         {
-              //取得Client端传过来的要求加以处理
-            switch (operationRequest.OperationCode)
+            HandlerBase handler;
+            OestsApplication.Instance.handlers.TryGetValue(operationRequest.OperationCode, out handler);
+            if(handler != null)
             {
-                case (byte)OpCodeEnum.Login:
-                    string uname = (string)operationRequest.Parameters[(byte)OpKeyEnum.UserName];
-                    string pwd = (string)operationRequest.Parameters[(byte)OpKeyEnum.PassWord];
-                    
-                    if (userTabel.ContainsKey(uname) && userTabel[uname].Equals(pwd))
-                    {
-                        SendOperationResponse(new OperationResponse((byte)OpCodeEnum.LoginSuccess, null), new SendParameters());
-                    }
-                    else
-                    {
-                        SendOperationResponse(new OperationResponse((byte)OpCodeEnum.LoginFailed, null), new SendParameters());
-                    }
-                    break;
+                OperationResponse response;
+                response = handler.OnOperationMessage(operationRequest);
+                SendOperationResponse(response, sendParameters);
             }
+            else
+            {
+                log.Debug("can not find handler from operation code:"+ operationRequest.OperationCode);
+            }
+            
         }
     }
 }

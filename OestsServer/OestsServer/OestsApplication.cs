@@ -16,23 +16,26 @@ namespace OestsServer
 {
     public class OestsApplication:ApplicationBase
     {
-
+        #region 单列
         private static OestsApplication _instance;
+        public static OestsApplication Instance
+        {
+            get { return _instance; }
+        }
+
+        public OestsApplication() { _instance = this; }
+        #endregion
+
         private static readonly ILogger log = ExitGames.Logging.LogManager.GetCurrentClassLogger();
 
-        private Dictionary<byte, HandlerBase> handlers = new Dictionary<byte, HandlerBase>();
+        public  Dictionary<byte, HandlerBase> handlers = new Dictionary<byte, HandlerBase>();
 
         protected override PeerBase CreatePeer(InitRequest initRequest)
         {
             return new ChatPeer(initRequest);
         }
 
-        public static OestsApplication Instance
-        {
-            get { return _instance; }
-        }
-
-       public OestsApplication(){ _instance = this; }
+      
 
         protected override void Setup()
         {
