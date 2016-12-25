@@ -74,6 +74,9 @@
  <Reference Include="Photon3Unity3D">
  <HintPath>E:/GithubRepositories/OESTS/projects-master/OESTS/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
+ <Reference Include="LitJson">
+ <HintPath>E:/GithubRepositories/OESTS/projects-master/OESTS/Assets/Plugins/LitJson.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

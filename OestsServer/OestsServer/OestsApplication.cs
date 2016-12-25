@@ -42,8 +42,6 @@ namespace OestsServer
             InitLogging();//初始化日志功能
 
             log.Debug("application setup complete");
-            log.Info("傻吊");
-
         }
 
         protected virtual void InitLogging()
@@ -56,12 +54,12 @@ namespace OestsServer
         protected override void TearDown()
         {
             log.Debug("application TearDown ");
-            log.Info("DDD");
         }
 
         public void RegisteHandler()
         {
             handlers.Add((byte)OperationCode.Login, new LoginHandler());
+            handlers.Add((byte)OperationCode.LoadServer, new ServerHandler());
         }
 
     }

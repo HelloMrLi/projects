@@ -436,3 +436,5 @@
 8464: 11:02:10.967 - Application: "OestsServer" restart complete.
 3404: 11:02:10.974 - Unloading Domain: ApplicationName = 'OestsServer', DomainId='6'
 8932: 11:02:10.974 - CManagedHost::OnDomainUnload() - 6
+3972: 19:17:12.184 - FAILED license server contact - trying next URL.
+3228: 21:49:29.793 - FAILED license server contact - trying next URL.

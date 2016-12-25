@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using ExitGames.Client.Photon;
 using UnityEngine;
 using OestsCommon;
+using LitJson;
 
 public class ServreController : ControllerBase
 {
@@ -23,5 +24,16 @@ public class ServreController : ControllerBase
 
     public override void OnOperationResponse(OperationResponse response)
     {
+
+        Dictionary<byte,object> parameters = response.Parameters;
+        object objJson;
+        parameters.TryGetValue((byte)ParameterCode.ServerList, out objJson);
+        List<string> list = JsonMapper.ToObject<List<string>>(objJson.ToString());
+        foreach (var item in list)
+        {
+            Debug.Log("服务器地址： "+item);
+
+        }
+
     }
 }

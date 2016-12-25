@@ -36,6 +36,9 @@
     <Reference Include="ExitGamesLibs">
       <HintPath>..\..\Photon-OnPremise-Server-SDK_v4-0-29-11263\lib\ExitGamesLibs.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:\Users\Lisir\Desktop\LitJson.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>..\..\Photon-OnPremise-Server-SDK_v4-0-29-11263\lib\log4net.dll</HintPath>
     </Reference>
@@ -47,6 +50,7 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,8 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChatPeer.cs" />
+    <Compile Include="DB\Manager\ServerManager.cs" />
+    <Compile Include="DB\SqlHelper.cs" />
     <Compile Include="Handlers\HandlerBase.cs" />
     <Compile Include="Handlers\LoginHandler.cs" />
+    <Compile Include="Handlers\ServerHandler.cs" />
     <Compile Include="OestsApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

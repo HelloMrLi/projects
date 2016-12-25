@@ -66,3 +66,21 @@
 2016-12-25 11:02:10,966 [30] DEBUG OestsServer.OestsApplication - application TearDown 
 2016-12-25 11:02:10,967 [30] INFO  OestsServer.OestsApplication - DDD
 2016-12-25 11:02:10,967 [30] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=OestsServer
+2016-12-26 00:14:29,995 [30] DEBUG OestsServer.OestsApplication - application setup complete
+2016-12-26 00:14:30,030 [30] INFO  OestsServer.OestsApplication - 傻吊
+2016-12-26 00:14:30,031 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=OestsServer; AppPath=E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer, Type=OestsServer.OestsApplication 
+2016-12-26 00:14:30,207 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=OestsServer
+2016-12-26 00:14:30,246 [30] DEBUG OestsServer.OestsApplication - application TearDown 
+2016-12-26 00:14:30,247 [30] INFO  OestsServer.OestsApplication - DDD
+2016-12-26 00:14:30,247 [30] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=OestsServer
+2016-12-26 00:27:32,991 [30] DEBUG OestsServer.OestsApplication - application setup complete
+2016-12-26 00:27:33,012 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=OestsServer; AppPath=E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer, Type=OestsServer.OestsApplication 
+2016-12-26 00:27:33,032 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=OestsServer
+2016-12-26 00:27:33,035 [30] DEBUG OestsServer.OestsApplication - application TearDown 
+2016-12-26 00:27:33,036 [30] INFO  OestsServer.OestsApplication - DDD
+2016-12-26 00:27:33,036 [30] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=OestsServer
+2016-12-26 00:27:48,801 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=OestsServer
+2016-12-26 00:27:49,364 [1] DEBUG OestsServer.OestsApplication - application TearDown 
+2016-12-26 00:27:49,365 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=OestsServer
+2016-12-26 00:28:05,747 [1] DEBUG OestsServer.OestsApplication - application setup complete
+2016-12-26 00:28:05,758 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=OestsServer; AppPath=E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer, Type=OestsServer.OestsApplication 
