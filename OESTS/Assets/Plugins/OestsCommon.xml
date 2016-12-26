@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OestsCommon</name>
+    </assembly>
+    <members>
+        <member name="P:OestsCommon.Model.Major.Activate">
+            <summary>
+            专业隐藏
+            </summary>
+        </member>
+        <member name="T:OestsCommon.OperationCode">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="F:OestsCommon.OperationCode.Login">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="F:OestsCommon.OperationCode.LoadServer">
+            <summary>
+            加载服务器
+            </summary>
+        </member>
+        <member name="F:OestsCommon.OperationCode.LoadMajorList">
+            <summary>
+            加载专业列表
+            </summary>
+        </member>
+        <member name="F:OestsCommon.ParameterCode.ServerList">
+            <summary>
+            服务器列表
+            </summary>
+        </member>
+        <member name="F:OestsCommon.ParameterCode.MajorList">
+            <summary>
+            专业列表
+            </summary>
+        </member>
+    </members>
+</doc>
