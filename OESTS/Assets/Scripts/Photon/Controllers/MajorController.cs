@@ -34,11 +34,14 @@ public class MajorController : ControllerBase
 
     public override void OnOperationResponse(OperationResponse response)
     {
-        Dictionary<byte,object> parameters = response.Parameters;
-        object objJson;
-        parameters.TryGetValue((byte)ParameterCode.MajorList, out objJson);
+        //Dictionary<byte,object> parameters = response.Parameters;
+        //object objJson;
+        //parameters.TryGetValue((byte)ParameterCode.MajorList, out objJson);
 
-        List<Major> list = JsonMapper.ToObject<List<Major>>(objJson.ToString());
+        //List<Major> list = JsonMapper.ToObject<List<Major>>(objJson.ToString());
+
+        List<Major> list = response.Parameters.GetValue<List<Major>>(ParameterCode.MajorList);
+
         foreach (var item in list)
         {
             Debug.Log("专业名称： " + item.Name);

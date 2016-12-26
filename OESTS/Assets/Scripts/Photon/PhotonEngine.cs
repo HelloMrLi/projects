@@ -31,7 +31,7 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
     void Awake()
     {
         _Instance = this;
-        address = "192.168.1.13:4530";
+        address = "127.0.0.1:4533";
         // address = "127.0.0.1:4530";
         Server = "OestsServer";
         peer = new PhotonPeer(this, ConnectionProtocol.Tcp);
