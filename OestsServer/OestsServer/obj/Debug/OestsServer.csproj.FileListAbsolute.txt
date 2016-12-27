@@ -16,6 +16,9 @@ E:\GithubRepositories\OESTS\projects-master\OestsServer\OestsServer\obj\Debug\Oe
 E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\OestsServer.dll
 E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\OestsServer.pdb
 E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\log4net.config
+E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\App.config
+E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\OestsServer.dll.config
+F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\App.config
 F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\log4net.config
 F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\OestsServer.dll
 F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\OestsServer.pdb
@@ -23,5 +26,3 @@ F:\GitHub\projects\OestsServer\OestsServer\obj\Debug\OestsServer.csprojResolveAs
 F:\GitHub\projects\OestsServer\OestsServer\obj\Debug\OestsServer.dll
 F:\GitHub\projects\OestsServer\OestsServer\obj\Debug\OestsServer.pdb
 F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\OestsServer.dll.config
-E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\App.config
-E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer\bin\OestsServer.dll.config

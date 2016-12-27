@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LitJson">
-      <HintPath>..\OestsServer\Dll\LitJson.dll</HintPath>
+      <HintPath>..\Plugins\LitJson.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,7 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Admin.cs" />
+    <Compile Include="Model\Area.cs" />
     <Compile Include="Model\Major.cs" />
+    <Compile Include="Model\Paper.cs" />
+    <Compile Include="Model\Pattern.cs" />
+    <Compile Include="Model\Post.cs" />
+    <Compile Include="Model\PostTaskl.cs" />
+    <Compile Include="Model\Project.cs" />
+    <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\TaskModel.cs" />
+    <Compile Include="Model\Teacher.cs" />
+    <Compile Include="Model\TrainGroup.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="OperationCode.cs" />
     <Compile Include="ParameterCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
-namespace OestsServer.DB
+namespace OestsDataBase
 {
     public class SqlHelper
     {

@@ -11,20 +11,6 @@ using System.Reflection;
 
 namespace OestsServer
 {
-    public static class MyClass
-    {
-        public static string TryGetValueEx(this Dictionary<string, string> dic, string key)
-        {
-
-            if (dic == null)
-                throw new Exception("Dictionary is NULL.");
-            string value = string.Empty;
-            if (!dic.TryGetValue(key, out value))
-                throw new Exception("The given key:" + key + " was not present in the dictionary.");
-            return value;
-        }
-    }
-
     public class OestsApplication:ApplicationBase
     {
         #region 单列

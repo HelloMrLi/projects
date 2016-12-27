@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OestsServer", "OestsServer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OestsCommon", "OestsCommon\OestsCommon.csproj", "{ADE91C70-8978-42B2-B232-624126424413}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OestsDataBase", "OestsDataBase\OestsDataBase.csproj", "{E2E0E753-E5EA-4753-A75E-C0B80B403CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ADE91C70-8978-42B2-B232-624126424413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE91C70-8978-42B2-B232-624126424413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE91C70-8978-42B2-B232-624126424413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E0E753-E5EA-4753-A75E-C0B80B403CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E0E753-E5EA-4753-A75E-C0B80B403CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E0E753-E5EA-4753-A75E-C0B80B403CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E0E753-E5EA-4753-A75E-C0B80B403CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

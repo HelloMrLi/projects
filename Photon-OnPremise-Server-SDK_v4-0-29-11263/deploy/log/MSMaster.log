@@ -677,3 +677,399 @@
 2016-12-26 22:29:44,906 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:54086 established (id=2)
 2016-12-26 22:29:44,998 [7] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
 2016-12-26 22:29:44,999 [7] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 10:44:16,950 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 10:44:18,490 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 10:44:18,490 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 10:44:18,492 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 10:44:18,494 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 10:44:18,500 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 10:44:18,569 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 10:44:18,623 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 10:44:18,671 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 10:44:18,672 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 10:44:18,672 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 10:44:18,673 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 10:44:18,673 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 10:44:18,710 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 10:44:18,880 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:3292 established (id=2)
+2016-12-27 10:44:18,974 [13] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 10:44:18,974 [13] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 11:04:48,826 [19] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:3458 established (id=3)
+2016-12-27 11:04:48,827 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=ee7f4afb-82f2-4b60-8211-db52eb138813, reason=ClientDisconnect)
+2016-12-27 12:04:16,204 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 12:04:16,212 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=3, serverId=c47241bf-976e-4c8d-85e5-1ff5f3ca7395, reason=ManagedDisconnect)
+2016-12-27 12:04:16,229 [12] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 12:04:44,280 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 12:04:45,786 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 12:04:45,786 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 12:04:45,787 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 12:04:45,790 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 12:04:45,795 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 12:04:45,871 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 12:04:45,930 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 12:04:45,969 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 12:04:45,970 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 12:04:45,970 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 12:04:45,971 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 12:04:45,971 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 12:04:46,000 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 12:04:46,165 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 12:04:46,169 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:0 established (id=2)
+2016-12-27 12:04:46,177 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 12:06:22,186 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 12:06:23,708 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 12:06:23,709 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 12:06:23,710 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 12:06:23,714 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 12:06:23,720 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 12:06:23,767 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 12:06:23,812 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 12:06:23,842 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 12:06:23,842 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 12:06:23,843 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 12:06:23,843 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 12:06:23,844 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 12:06:23,866 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 12:06:24,016 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:4071 established (id=2)
+2016-12-27 12:06:24,092 [12] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 12:06:24,093 [12] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 13:37:52,135 [16] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=770fc4fe-096c-4db4-9431-ff1c6f4b5fb7, reason=ClientDisconnect)
+2016-12-27 13:37:52,150 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 13:37:52,160 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 13:38:15,660 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:38:17,146 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 13:38:17,146 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 13:38:17,146 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 13:38:17,146 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 13:38:17,156 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 13:38:17,206 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:38:17,256 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 13:38:17,276 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 13:38:17,286 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 13:38:17,286 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 13:38:17,286 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 13:38:17,286 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 13:38:17,306 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 13:38:17,444 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:5329 established (id=2)
+2016-12-27 13:38:17,516 [12] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 13:38:17,516 [12] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 13:38:44,518 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 13:38:44,548 [9] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=fcc258fa-72cf-45a9-97df-d554ba76a532, reason=ManagedDisconnect)
+2016-12-27 13:38:44,561 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 13:39:37,256 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:39:38,771 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 13:39:38,771 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 13:39:38,771 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 13:39:38,771 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 13:39:38,781 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 13:39:38,821 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:39:38,881 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 13:39:38,901 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 13:39:38,911 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 13:39:38,911 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 13:39:38,911 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 13:39:38,911 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 13:39:38,931 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 13:39:39,071 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:5384 established (id=2)
+2016-12-27 13:39:39,141 [8] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 13:39:39,141 [8] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 13:40:06,299 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 13:40:06,308 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=6c5ee7de-ebfe-4307-ab22-1e4dbe43f487, reason=ManagedDisconnect)
+2016-12-27 13:40:06,326 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 13:41:04,738 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:41:06,226 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 13:41:06,227 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 13:41:06,228 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 13:41:06,231 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 13:41:06,237 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 13:41:06,285 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:41:06,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 13:41:06,357 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 13:41:06,358 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 13:41:06,358 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 13:41:06,359 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 13:41:06,360 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 13:41:06,382 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 13:41:06,534 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:5422 established (id=2)
+2016-12-27 13:41:06,606 [11] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 13:41:06,606 [11] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 14:36:55,017 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=a25ecb01-6080-408b-9fcb-08ab01f4f37e, reason=ClientDisconnect)
+2016-12-27 14:36:55,017 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 14:36:55,037 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 14:39:15,638 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 14:39:17,430 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 14:39:17,430 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 14:39:17,430 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 14:39:17,430 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 14:39:17,440 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 14:39:17,499 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 14:39:17,550 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 14:39:17,586 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 14:39:17,586 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 14:39:17,587 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 14:39:17,587 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 14:39:17,588 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 14:39:17,614 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 14:39:17,859 [7] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6066 established (id=2)
+2016-12-27 14:39:17,968 [9] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 14:39:17,968 [9] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 14:39:18,438 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 14:39:18,466 [7] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=1cdef6f7-e01c-43c4-930d-82db03ba7d44, reason=ManagedDisconnect)
+2016-12-27 14:39:18,503 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 14:39:53,846 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 14:39:55,384 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 14:39:55,384 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 14:39:55,384 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 14:39:55,384 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 14:39:55,394 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 14:39:55,444 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 14:39:55,495 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 14:39:55,525 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 14:39:55,525 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 14:39:55,526 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 14:39:55,526 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 14:39:55,527 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 14:39:55,541 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 14:39:55,691 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6074 established (id=2)
+2016-12-27 14:39:55,761 [11] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 14:39:55,761 [11] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 15:18:39,112 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 15:18:39,142 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 15:18:39,154 [9] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=69288a0b-81ca-482a-9d61-e0c1462d1579, reason=ManagedDisconnect)
+2016-12-27 15:19:02,567 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:19:04,239 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 15:19:04,240 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 15:19:04,241 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 15:19:04,244 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 15:19:04,250 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 15:19:04,304 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:19:04,349 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 15:19:04,380 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 15:19:04,381 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 15:19:04,381 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 15:19:04,382 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 15:19:04,382 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 15:19:04,406 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 15:19:04,559 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6482 established (id=2)
+2016-12-27 15:19:04,638 [12] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 15:19:04,638 [12] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 15:46:47,369 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 15:46:47,399 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=9902e087-4ccd-43cc-9866-4d5b07ffd50c, reason=ManagedDisconnect)
+2016-12-27 15:46:47,409 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 15:47:11,556 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:47:13,235 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 15:47:13,245 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 15:47:13,245 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 15:47:13,245 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 15:47:13,255 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 15:47:13,305 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:47:13,355 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 15:47:13,395 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 15:47:13,395 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 15:47:13,395 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 15:47:13,395 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 15:47:13,395 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 15:47:13,415 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 15:47:13,615 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6749 established (id=2)
+2016-12-27 15:47:13,702 [6] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 15:47:13,703 [6] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 15:47:14,109 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=9c34a343-67f1-4d49-aa61-514614fd6246, reason=ClientDisconnect)
+2016-12-27 15:47:14,109 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 15:47:14,129 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 15:50:49,348 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:50:51,117 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 15:50:51,118 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 15:50:51,128 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 15:50:51,132 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 15:50:51,139 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 15:50:51,199 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:50:51,249 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 15:50:51,285 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 15:50:51,285 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 15:50:51,286 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 15:50:51,286 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 15:50:51,287 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 15:50:51,315 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 15:50:51,491 [6] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6790 established (id=2)
+2016-12-27 15:50:51,566 [13] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 15:50:51,567 [13] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 16:02:53,023 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 16:02:53,047 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=99b8cff0-e947-4aa2-90bd-051a8ad62c1c, reason=ManagedDisconnect)
+2016-12-27 16:02:53,068 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 16:04:38,216 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:04:39,917 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:04:39,919 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:04:39,921 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 16:04:39,923 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 16:04:39,933 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 16:04:40,098 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:04:40,170 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 16:04:40,207 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 16:04:40,208 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 16:04:40,209 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 16:04:40,209 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 16:04:40,210 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 16:04:40,235 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:04:40,464 [15] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6936 established (id=2)
+2016-12-27 16:04:40,567 [7] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 16:04:40,568 [7] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 16:18:22,591 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 16:18:22,591 [26] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=fd69ced0-e983-4a95-a561-39d87a8e3ea6, reason=ClientDisconnect)
+2016-12-27 16:18:22,600 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 16:18:52,455 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:18:54,164 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:18:54,165 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:18:54,167 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 16:18:54,172 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 16:18:54,180 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 16:18:54,238 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:18:54,285 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 16:18:54,328 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 16:18:54,328 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 16:18:54,329 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 16:18:54,329 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 16:18:54,330 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 16:18:54,358 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:18:54,571 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:7191 established (id=2)
+2016-12-27 16:18:54,655 [12] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 16:18:54,656 [12] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 16:20:07,218 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 16:20:07,242 [18] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=4d3c49fa-4056-4c32-9332-7c41b8dc83f4, reason=ManagedDisconnect)
+2016-12-27 16:20:07,317 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 16:20:29,575 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:20:31,276 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:20:31,277 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:20:31,279 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 16:20:31,282 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 16:20:31,290 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 16:20:31,331 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:20:31,381 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 16:20:31,415 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 16:20:31,416 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 16:20:31,416 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 16:20:31,417 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 16:20:31,417 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 16:20:31,449 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:20:31,640 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:7208 established (id=2)
+2016-12-27 16:20:31,719 [13] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 16:20:31,720 [13] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 16:21:01,400 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 16:21:01,432 [17] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=d1c924fd-a8ea-42d3-be4d-3fb6352384d0, reason=ManagedDisconnect)
+2016-12-27 16:21:01,433 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 16:21:34,565 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:21:36,135 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:21:36,135 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:21:36,135 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 16:21:36,135 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 16:21:36,135 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 16:21:36,215 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:21:36,265 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 16:21:36,295 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 16:21:36,295 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 16:21:36,295 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 16:21:36,295 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 16:21:36,295 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 16:21:36,315 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:21:36,465 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:7223 established (id=2)
+2016-12-27 16:21:36,528 [10] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 16:21:36,528 [10] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 16:39:01,534 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 16:39:01,534 [16] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=2a270bd9-0b24-4d39-98dc-fe37d65351cd, reason=ClientDisconnect)
+2016-12-27 16:39:01,544 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 16:39:22,582 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:39:24,087 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:39:24,097 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:39:24,097 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 16:39:24,097 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 16:39:24,097 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 16:39:24,147 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:39:24,187 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 16:39:24,217 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 16:39:24,217 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 16:39:24,217 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 16:39:24,217 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 16:39:24,217 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 16:39:24,237 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:39:24,387 [7] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:7798 established (id=2)
+2016-12-27 16:39:24,447 [7] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 16:39:24,447 [7] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 16:45:03,325 [16] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=03527937-7c23-490e-a44f-6b54b47c1608, reason=ClientDisconnect)
+2016-12-27 16:45:03,329 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 16:45:03,340 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 16:45:28,726 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:45:30,236 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:45:30,236 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:45:30,236 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 16:45:30,246 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 16:45:30,246 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 16:45:30,296 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:45:30,436 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 16:45:30,486 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 16:45:30,486 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 16:45:30,486 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 16:45:30,486 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 16:45:30,486 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 16:45:30,516 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:45:30,666 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:7864 established (id=2)
+2016-12-27 16:45:30,726 [8] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 16:45:30,736 [8] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 16:52:18,972 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=c22b73ab-6279-4bcd-9aa4-2d4c53f69a69, reason=ClientDisconnect)
+2016-12-27 16:52:18,976 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 16:52:18,995 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 16:53:04,747 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:53:06,454 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:53:06,456 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:53:06,458 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 16:53:06,461 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 16:53:06,468 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 16:53:06,534 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:53:06,584 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 16:53:06,616 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 16:53:06,617 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 16:53:06,617 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 16:53:06,618 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 16:53:06,618 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 16:53:06,644 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:53:06,889 [6] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:7943 established (id=2)
+2016-12-27 16:53:06,986 [6] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 16:53:06,986 [6] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 17:00:16,311 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 17:00:16,314 [20] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=1e5250f6-7526-4cf4-a71e-6e838a101a70, reason=ClientDisconnect)
+2016-12-27 17:00:16,327 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 17:02:25,308 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 17:02:26,799 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 17:02:26,799 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 17:02:26,799 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 17:02:26,809 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 17:02:26,809 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 17:02:26,849 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 17:02:26,899 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 17:02:26,929 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 17:02:26,929 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 17:02:26,929 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 17:02:26,929 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 17:02:26,929 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 17:02:26,949 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 17:02:27,109 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:8053 established (id=2)
+2016-12-27 17:02:27,169 [12] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 17:02:27,169 [12] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2016-12-27 18:05:26,382 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2016-12-27 18:05:26,382 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=06ec5e82-f9c7-4f66-ace1-91fe63f01269, reason=ClientDisconnect)
+2016-12-27 18:05:26,398 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2016-12-27 18:05:47,210 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 18:05:47,603 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 18:05:47,603 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 18:05:47,603 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2016-12-27 18:05:47,603 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2016-12-27 18:05:47,619 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancer.config”。)
+2016-12-27 18:05:47,650 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 18:05:47,682 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2016-12-27 18:05:47,713 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2016-12-27 18:05:47,713 [1] WARN  Photon.LoadBalancing.Common.NodesReader - F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2016-12-27 18:05:47,713 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Nodes.txt
+2016-12-27 18:05:47,713 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2016-12-27 18:05:47,713 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2016-12-27 18:05:47,729 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 18:05:47,886 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:8742 established (id=2)
+2016-12-27 18:05:47,948 [12] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2016-12-27 18:05:47,948 [12] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1

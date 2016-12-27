@@ -1,8 +1,8 @@
 ﻿using LitJson;
 using OestsCommon;
-using OestsServer.DB.Manager;
 using Photon.SocketServer;
 using System.Collections.Generic;
+using OestsDataBase.Manager;
 
 namespace OestsServer.Handlers
 {

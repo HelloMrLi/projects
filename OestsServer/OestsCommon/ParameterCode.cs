@@ -1,7 +1,7 @@
 ﻿
 namespace OestsCommon
 {
-   public enum ParameterCode:byte
+    public enum ParameterCode : byte
     {
         /// <summary>
         /// 服务器列表
@@ -10,6 +10,10 @@ namespace OestsCommon
         /// <summary>
         /// 专业列表
         /// </summary>
-        MajorList
+        MajorList,
+        /// <summary>
+        /// 用户
+        /// </summary>
+        User
     }
 }

@@ -4,10 +4,186 @@
         <name>OestsCommon</name>
     </assembly>
     <members>
+        <member name="P:OestsCommon.Model.Area.Name">
+            <summary>
+            区域名 唯一标识
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Area.Describe">
+            <summary>
+            区域描述
+            </summary>
+        </member>
         <member name="P:OestsCommon.Model.Major.Activate">
             <summary>
             专业隐藏
             </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Paper.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Paper.Tasks">
+            <summary>
+            试卷中的任务
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Student.RelName">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Student.TeacherId">
+            <summary>
+            属于教师  -1时表示未配置任何教师
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Student.OnLine">
+            <summary>
+            是否在线  true 在线
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.Student.CurrenPattern">
+            <summary>
+            当前培训模式
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.Student.CurrentTask">
+            <summary>
+            当前进行的任务
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.Student.CurrentPost">
+            <summary>
+            当前进行的岗位
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.Id">
+            <summary>
+            id 唯一标识
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.Code">
+            <summary>
+            任务编号 内建任务和新建任务可能编号相同
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.TeacherId">
+            <summary>
+            教师id 0 代表内建任务
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.Name">
+            <summary>
+            任务名称
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.ProjectId">
+            <summary>
+            项目ID
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.Detail">
+            <summary>
+            详情
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.DefaultTime">
+            <summary>
+            默认时间
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.SetTime">
+            <summary>
+            设置的时间
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.ExamPostId">
+            <summary>
+            考试所考的岗位
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.DefaultScore">
+            <summary>
+            默认分值
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.Score">
+            <summary>
+            考试的分值
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.TaskModel.MultiPlayer">
+            <summary>
+            0 :仅单人  1：仅多人  2：可单人 也可多人 模式
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Teacher.PatternType">
+            <summary>
+            模式设置类型
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Teacher.TrainingId">
+            <summary>
+            实训配置 0 未配置
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.Teacher.ExamId">
+            <summary>
+            考试配置 0 未配置
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.PatternType.Undefine">
+            <summary>
+            未定义
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.PatternType.Student">
+            <summary>
+            学员模式
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.PatternType.Learn">
+            <summary>
+            学习模式
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.PatternType.Train">
+            <summary>
+            实训模式
+            </summary>
+        </member>
+        <member name="F:OestsCommon.Model.PatternType.Exam">
+            <summary>
+            考试模式
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.User.Platform">
+            <summary>
+            平台类型  管理系统和三维仿真平台
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.User.Type">
+            <summary>
+            用户类型
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.User.Name">
+            <summary>
+            学生时  为学号
+            </summary>
+        </member>
+        <member name="P:OestsCommon.Model.User.LogoutTime">
+            <summary>
+            该值会实时的刷新，保证异常退出时也会记录一个最近的值
+            </summary>
+        </member>
+        <member name="M:OestsCommon.Model.User.CalculationOnlineTime">
+            <summary>
+            计算在线时长
+            </summary>
+            <returns></returns>
         </member>
         <member name="T:OestsCommon.OperationCode">
             <summary>
@@ -37,6 +213,11 @@
         <member name="F:OestsCommon.ParameterCode.MajorList">
             <summary>
             专业列表
+            </summary>
+        </member>
+        <member name="F:OestsCommon.ParameterCode.User">
+            <summary>
+            用户
             </summary>
         </member>
     </members>

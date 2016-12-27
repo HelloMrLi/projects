@@ -61,9 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClientPeer.cs" />
-    <Compile Include="DB\Manager\MajorManager.cs" />
-    <Compile Include="DB\Manager\ServerManager.cs" />
-    <Compile Include="DB\SqlHelper.cs" />
+    <Compile Include="Extensions\Extension.cs" />
     <Compile Include="Handlers\HandlerBase.cs" />
     <Compile Include="Handlers\LoginHandler.cs" />
     <Compile Include="Handlers\LoadMajorListHandler.cs" />
@@ -84,10 +82,12 @@
       <Project>{ade91c70-8978-42b2-b232-624126424413}</Project>
       <Name>OestsCommon</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OestsDataBase\OestsDataBase.csproj">
+      <Project>{E2E0E753-E5EA-4753-A75E-C0B80B403CDB}</Project>
+      <Name>OestsDataBase</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dll\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

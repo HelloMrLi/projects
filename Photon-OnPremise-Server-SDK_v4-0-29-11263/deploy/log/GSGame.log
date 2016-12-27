@@ -1907,3 +1907,848 @@
 2016-12-26 22:29:44,952 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
 2016-12-26 22:29:44,956 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.13, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID cbc4562d-2a80-40df-bbed-a42cf4b39929, Hostname localhost, IPv6Address 
 2016-12-26 22:29:45,022 [13] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=cbc4562d-2a80-40df-bbed-a42cf4b39929
+2016-12-27 10:44:10,939 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=ee7f4afb-82f2-4b60-8211-db52eb138813
+2016-12-27 10:44:12,474 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 10:44:12,474 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 10:44:12,479 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 10:44:16,732 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 10:44:16,733 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 10:44:16,734 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 10:44:16,735 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 10:44:16,736 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 10:44:16,737 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 10:44:16,738 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 10:44:16,738 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 10:44:16,739 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 10:44:16,740 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 10:44:16,740 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 10:44:16,741 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 10:44:16,742 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 10:44:16,742 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 10:44:16,751 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 10:44:16,758 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 10:44:16,761 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 10:44:16,762 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 10:44:16,802 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=ee7f4afb-82f2-4b60-8211-db52eb138813
+2016-12-27 10:44:16,822 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 10:44:16,828 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 10:44:18,931 [12] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 10:44:18,932 [12] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 10:44:18,935 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.13, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID ee7f4afb-82f2-4b60-8211-db52eb138813, Hostname localhost, IPv6Address 
+2016-12-27 10:44:18,995 [13] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=ee7f4afb-82f2-4b60-8211-db52eb138813
+2016-12-27 10:50:58,527 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 10:50:58,527 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 10:55:02,094 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 10:55:02,122 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 11:00:04,396 [8] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 11:00:04,396 [8] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 11:04:44,311 [16] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=c47241bf-976e-4c8d-85e5-1ff5f3ca7395
+2016-12-27 11:04:45,877 [16] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 11:04:45,878 [16] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 11:04:45,883 [16] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 11:04:48,736 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 11:04:48,738 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 11:04:48,739 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 11:04:48,740 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 11:04:48,741 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 11:04:48,741 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 11:04:48,742 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 11:04:48,743 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 11:04:48,744 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 11:04:48,744 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 11:04:48,745 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 11:04:48,746 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 11:04:48,747 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 11:04:48,747 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 11:04:48,756 [16] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 11:04:48,764 [16] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 11:04:48,766 [16] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 11:04:48,767 [16] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 11:04:48,797 [16] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=c47241bf-976e-4c8d-85e5-1ff5f3ca7395
+2016-12-27 11:04:48,816 [16] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 11:04:48,821 [16] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 11:04:48,823 [16] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=ee7f4afb-82f2-4b60-8211-db52eb138813
+2016-12-27 11:04:48,825 [16] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 11:04:48,828 [12] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=ee7f4afb-82f2-4b60-8211-db52eb138813
+2016-12-27 11:04:48,830 [12] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 11:04:48,830 [17] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=ee7f4afb-82f2-4b60-8211-db52eb138813
+2016-12-27 11:04:48,834 [22] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 11:04:48,834 [22] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 11:04:48,839 [22] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID c47241bf-976e-4c8d-85e5-1ff5f3ca7395, Hostname localhost, IPv6Address 
+2016-12-27 11:04:48,935 [19] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=c47241bf-976e-4c8d-85e5-1ff5f3ca7395
+2016-12-27 11:13:22,226 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 11:13:22,227 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 11:16:42,080 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 11:16:42,104 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 11:19:00,141 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 11:19:00,142 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 11:26:49,206 [22] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 11:26:49,207 [22] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 11:28:13,660 [30] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 11:28:13,660 [30] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 11:51:53,756 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 11:51:53,758 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 12:04:16,198 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=c47241bf-976e-4c8d-85e5-1ff5f3ca7395
+2016-12-27 12:04:16,200 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 12:04:16,214 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=c47241bf-976e-4c8d-85e5-1ff5f3ca7395
+2016-12-27 12:04:16,215 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 12:04:16,215 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=3, reason=ManagedDisconnect, detail=), serverId=c47241bf-976e-4c8d-85e5-1ff5f3ca7395
+2016-12-27 12:04:38,136 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=158c0efc-3073-4ef3-9e24-2e29e997cae6
+2016-12-27 12:04:39,684 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 12:04:39,685 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 12:04:39,690 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 12:04:44,065 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 12:04:44,066 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 12:04:44,067 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 12:04:44,068 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 12:04:44,068 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 12:04:44,069 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 12:04:44,070 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 12:04:44,071 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 12:04:44,071 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 12:04:44,072 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 12:04:44,073 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 12:04:44,073 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 12:04:44,074 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 12:04:44,075 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 12:04:44,083 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 12:04:44,091 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 12:04:44,094 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 12:04:44,094 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 12:04:44,136 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=158c0efc-3073-4ef3-9e24-2e29e997cae6
+2016-12-27 12:04:44,156 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 12:04:44,161 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 12:04:46,160 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=158c0efc-3073-4ef3-9e24-2e29e997cae6
+2016-12-27 12:04:46,162 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 12:04:46,170 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=158c0efc-3073-4ef3-9e24-2e29e997cae6
+2016-12-27 12:04:46,174 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=158c0efc-3073-4ef3-9e24-2e29e997cae6
+2016-12-27 12:04:46,175 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 12:06:17,029 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=770fc4fe-096c-4db4-9431-ff1c6f4b5fb7
+2016-12-27 12:06:18,707 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 12:06:18,708 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 12:06:18,712 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 12:06:21,969 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 12:06:21,970 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 12:06:21,971 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 12:06:21,971 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 12:06:21,972 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 12:06:21,973 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 12:06:21,974 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 12:06:21,974 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 12:06:21,975 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 12:06:21,976 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 12:06:21,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 12:06:21,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 12:06:21,978 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 12:06:21,979 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 12:06:21,987 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 12:06:21,995 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 12:06:21,997 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 12:06:21,998 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 12:06:22,037 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=770fc4fe-096c-4db4-9431-ff1c6f4b5fb7
+2016-12-27 12:06:22,060 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 12:06:22,066 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 12:06:24,048 [13] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 12:06:24,048 [13] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 12:06:24,052 [13] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 770fc4fe-096c-4db4-9431-ff1c6f4b5fb7, Hostname localhost, IPv6Address 
+2016-12-27 12:06:24,114 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=770fc4fe-096c-4db4-9431-ff1c6f4b5fb7
+2016-12-27 12:07:32,178 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 12:07:32,179 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 12:09:52,208 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 12:09:52,231 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 12:19:04,890 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 12:19:04,891 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 12:21:24,877 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 12:21:24,879 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 13:37:52,131 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=770fc4fe-096c-4db4-9431-ff1c6f4b5fb7
+2016-12-27 13:37:52,147 [16] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=770fc4fe-096c-4db4-9431-ff1c6f4b5fb7
+2016-12-27 13:37:52,147 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 13:37:52,158 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=770fc4fe-096c-4db4-9431-ff1c6f4b5fb7
+2016-12-27 13:37:52,159 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 13:38:09,511 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=fcc258fa-72cf-45a9-97df-d554ba76a532
+2016-12-27 13:38:11,079 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 13:38:11,079 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 13:38:11,079 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:38:15,411 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 13:38:15,412 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 13:38:15,413 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 13:38:15,414 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 13:38:15,415 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 13:38:15,416 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 13:38:15,417 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 13:38:15,417 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 13:38:15,418 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 13:38:15,419 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 13:38:15,420 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 13:38:15,420 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 13:38:15,421 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 13:38:15,422 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 13:38:15,431 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 13:38:15,439 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 13:38:15,441 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 13:38:15,442 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 13:38:15,482 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=fcc258fa-72cf-45a9-97df-d554ba76a532
+2016-12-27 13:38:15,502 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 13:38:15,508 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 13:38:17,474 [7] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 13:38:17,474 [7] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 13:38:17,474 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID fcc258fa-72cf-45a9-97df-d554ba76a532, Hostname localhost, IPv6Address 
+2016-12-27 13:38:17,536 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=fcc258fa-72cf-45a9-97df-d554ba76a532
+2016-12-27 13:38:44,508 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=fcc258fa-72cf-45a9-97df-d554ba76a532
+2016-12-27 13:38:44,518 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 13:38:44,542 [9] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=fcc258fa-72cf-45a9-97df-d554ba76a532
+2016-12-27 13:38:44,559 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=fcc258fa-72cf-45a9-97df-d554ba76a532
+2016-12-27 13:38:44,559 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 13:39:31,162 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=6c5ee7de-ebfe-4307-ab22-1e4dbe43f487
+2016-12-27 13:39:32,732 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 13:39:32,732 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 13:39:32,732 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:39:37,033 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 13:39:37,034 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 13:39:37,035 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 13:39:37,036 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 13:39:37,037 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 13:39:37,038 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 13:39:37,039 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 13:39:37,039 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 13:39:37,040 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 13:39:37,041 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 13:39:37,042 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 13:39:37,042 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 13:39:37,043 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 13:39:37,044 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 13:39:37,052 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 13:39:37,060 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 13:39:37,062 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 13:39:37,063 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 13:39:37,109 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=6c5ee7de-ebfe-4307-ab22-1e4dbe43f487
+2016-12-27 13:39:37,129 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 13:39:37,134 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 13:39:39,101 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 13:39:39,101 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 13:39:39,111 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 6c5ee7de-ebfe-4307-ab22-1e4dbe43f487, Hostname localhost, IPv6Address 
+2016-12-27 13:39:39,161 [9] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=6c5ee7de-ebfe-4307-ab22-1e4dbe43f487
+2016-12-27 13:40:06,277 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=6c5ee7de-ebfe-4307-ab22-1e4dbe43f487
+2016-12-27 13:40:06,287 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 13:40:06,334 [16] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=6c5ee7de-ebfe-4307-ab22-1e4dbe43f487
+2016-12-27 13:40:06,335 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 13:40:06,340 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=6c5ee7de-ebfe-4307-ab22-1e4dbe43f487
+2016-12-27 13:40:59,815 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=a25ecb01-6080-408b-9fcb-08ab01f4f37e
+2016-12-27 13:41:00,346 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 13:41:00,346 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 13:41:00,356 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 13:41:04,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 13:41:04,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 13:41:04,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 13:41:04,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 13:41:04,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 13:41:04,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 13:41:04,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 13:41:04,539 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 13:41:04,539 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 13:41:04,539 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 13:41:04,539 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 13:41:04,539 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 13:41:04,539 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 13:41:04,539 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 13:41:04,549 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 13:41:04,559 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 13:41:04,559 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 13:41:04,559 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 13:41:04,604 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=a25ecb01-6080-408b-9fcb-08ab01f4f37e
+2016-12-27 13:41:04,618 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 13:41:04,628 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 13:41:06,564 [10] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 13:41:06,565 [10] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 13:41:06,569 [10] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID a25ecb01-6080-408b-9fcb-08ab01f4f37e, Hostname localhost, IPv6Address 
+2016-12-27 13:41:06,626 [10] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=a25ecb01-6080-408b-9fcb-08ab01f4f37e
+2016-12-27 14:30:03,283 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 14:30:03,283 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 14:31:38,613 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 14:31:38,643 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 14:34:27,007 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 14:34:27,007 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 14:35:40,008 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 14:35:40,010 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 14:36:55,017 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=a25ecb01-6080-408b-9fcb-08ab01f4f37e
+2016-12-27 14:36:55,017 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 14:36:55,027 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=a25ecb01-6080-408b-9fcb-08ab01f4f37e
+2016-12-27 14:36:55,037 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=a25ecb01-6080-408b-9fcb-08ab01f4f37e
+2016-12-27 14:36:55,037 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 14:39:08,261 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=1cdef6f7-e01c-43c4-930d-82db03ba7d44
+2016-12-27 14:39:10,340 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 14:39:10,341 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 14:39:10,348 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 14:39:15,372 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 14:39:15,382 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 14:39:15,382 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 14:39:15,382 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 14:39:15,382 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 14:39:15,382 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 14:39:15,382 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 14:39:15,392 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 14:39:15,402 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 14:39:15,402 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 14:39:15,402 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 14:39:15,452 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=1cdef6f7-e01c-43c4-930d-82db03ba7d44
+2016-12-27 14:39:15,482 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 14:39:15,482 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 14:39:17,560 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Normal with input 50
+2016-12-27 14:39:17,560 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Normal
+2016-12-27 14:39:17,902 [9] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 14:39:17,903 [9] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 14:39:17,907 [9] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 1cdef6f7-e01c-43c4-930d-82db03ba7d44, Hostname localhost, IPv6Address 
+2016-12-27 14:39:17,996 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=1cdef6f7-e01c-43c4-930d-82db03ba7d44
+2016-12-27 14:39:18,430 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=1cdef6f7-e01c-43c4-930d-82db03ba7d44
+2016-12-27 14:39:18,433 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 14:39:18,459 [9] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=1cdef6f7-e01c-43c4-930d-82db03ba7d44
+2016-12-27 14:39:18,485 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=1cdef6f7-e01c-43c4-930d-82db03ba7d44
+2016-12-27 14:39:18,486 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 14:39:49,835 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=69288a0b-81ca-482a-9d61-e0c1462d1579
+2016-12-27 14:39:51,368 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 14:39:51,368 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 14:39:51,368 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 14:39:53,636 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 14:39:53,646 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 14:39:53,646 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 14:39:53,646 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 14:39:53,656 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 14:39:53,656 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 14:39:53,656 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 14:39:53,706 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=69288a0b-81ca-482a-9d61-e0c1462d1579
+2016-12-27 14:39:53,726 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 14:39:53,736 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 14:39:55,721 [7] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 14:39:55,721 [7] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 14:39:55,721 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 69288a0b-81ca-482a-9d61-e0c1462d1579, Hostname localhost, IPv6Address 
+2016-12-27 14:39:55,781 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=69288a0b-81ca-482a-9d61-e0c1462d1579
+2016-12-27 14:44:37,947 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 14:44:37,947 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 14:52:57,265 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 14:52:57,295 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 15:01:38,620 [7] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 15:01:38,620 [7] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 15:02:48,621 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 15:02:48,621 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 15:18:39,112 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=69288a0b-81ca-482a-9d61-e0c1462d1579
+2016-12-27 15:18:39,112 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 15:18:39,132 [22] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=69288a0b-81ca-482a-9d61-e0c1462d1579
+2016-12-27 15:18:39,142 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=69288a0b-81ca-482a-9d61-e0c1462d1579
+2016-12-27 15:18:39,142 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 15:18:55,767 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=9902e087-4ccd-43cc-9866-4d5b07ffd50c
+2016-12-27 15:18:57,572 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 15:18:57,572 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 15:18:57,572 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:19:02,300 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 15:19:02,301 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 15:19:02,302 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 15:19:02,303 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 15:19:02,304 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 15:19:02,305 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 15:19:02,306 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 15:19:02,307 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 15:19:02,309 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 15:19:02,310 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 15:19:02,311 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 15:19:02,312 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 15:19:02,313 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 15:19:02,314 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 15:19:02,324 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 15:19:02,334 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 15:19:02,336 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 15:19:02,338 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 15:19:02,390 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=9902e087-4ccd-43cc-9866-4d5b07ffd50c
+2016-12-27 15:19:02,414 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 15:19:02,420 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 15:19:04,463 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 37
+2016-12-27 15:19:04,463 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 15:19:04,592 [6] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 15:19:04,593 [6] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 15:19:04,598 [6] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 9902e087-4ccd-43cc-9866-4d5b07ffd50c, Hostname localhost, IPv6Address 
+2016-12-27 15:19:04,659 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=9902e087-4ccd-43cc-9866-4d5b07ffd50c
+2016-12-27 15:19:21,717 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2016-12-27 15:19:21,717 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 15:21:08,232 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2016-12-27 15:21:08,245 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2016-12-27 15:24:30,055 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 15:24:30,055 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 15:26:58,131 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 15:26:58,131 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 15:38:24,146 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2016-12-27 15:38:24,146 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 15:46:47,369 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=9902e087-4ccd-43cc-9866-4d5b07ffd50c
+2016-12-27 15:46:47,369 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 15:46:47,389 [17] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=9902e087-4ccd-43cc-9866-4d5b07ffd50c
+2016-12-27 15:46:47,401 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=9902e087-4ccd-43cc-9866-4d5b07ffd50c
+2016-12-27 15:46:47,407 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 15:47:04,958 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=9c34a343-67f1-4d49-aa61-514614fd6246
+2016-12-27 15:47:06,640 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 15:47:06,640 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 15:47:06,640 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:47:11,299 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 15:47:11,301 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 15:47:11,302 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 15:47:11,303 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 15:47:11,304 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 15:47:11,305 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 15:47:11,306 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 15:47:11,307 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 15:47:11,308 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 15:47:11,309 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 15:47:11,310 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 15:47:11,311 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 15:47:11,312 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 15:47:11,313 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 15:47:11,327 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 15:47:11,338 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 15:47:11,341 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 15:47:11,343 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 15:47:11,374 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=9c34a343-67f1-4d49-aa61-514614fd6246
+2016-12-27 15:47:11,403 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 15:47:11,410 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 15:47:13,515 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 38
+2016-12-27 15:47:13,515 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 15:47:13,647 [12] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 15:47:13,647 [12] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 15:47:13,647 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 9c34a343-67f1-4d49-aa61-514614fd6246, Hostname localhost, IPv6Address 
+2016-12-27 15:47:13,730 [6] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=9c34a343-67f1-4d49-aa61-514614fd6246
+2016-12-27 15:47:14,099 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=9c34a343-67f1-4d49-aa61-514614fd6246
+2016-12-27 15:47:14,109 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 15:47:14,119 [8] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=9c34a343-67f1-4d49-aa61-514614fd6246
+2016-12-27 15:47:14,119 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=9c34a343-67f1-4d49-aa61-514614fd6246
+2016-12-27 15:47:14,119 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 15:50:43,551 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=99b8cff0-e947-4aa2-90bd-051a8ad62c1c
+2016-12-27 15:50:44,285 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 15:50:44,292 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 15:50:44,298 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 15:50:49,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 15:50:49,103 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 15:50:49,104 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 15:50:49,104 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 15:50:49,106 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 15:50:49,107 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 15:50:49,108 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 15:50:49,109 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 15:50:49,110 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 15:50:49,111 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 15:50:49,112 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 15:50:49,112 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 15:50:49,113 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 15:50:49,114 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 15:50:49,124 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 15:50:49,133 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 15:50:49,136 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 15:50:49,137 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 15:50:49,185 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=99b8cff0-e947-4aa2-90bd-051a8ad62c1c
+2016-12-27 15:50:49,209 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 15:50:49,216 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 15:50:51,002 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 15:50:51,002 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 15:50:51,276 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2016-12-27 15:50:51,277 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 15:50:51,517 [12] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 15:50:51,517 [12] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 15:50:51,521 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 99b8cff0-e947-4aa2-90bd-051a8ad62c1c, Hostname localhost, IPv6Address 
+2016-12-27 15:50:51,592 [13] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=99b8cff0-e947-4aa2-90bd-051a8ad62c1c
+2016-12-27 15:51:54,176 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2016-12-27 15:51:54,201 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2016-12-27 15:53:00,091 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 15:53:00,093 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 15:57:19,688 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 15:57:19,689 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:00:37,560 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 16:00:37,561 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 16:02:53,014 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=99b8cff0-e947-4aa2-90bd-051a8ad62c1c
+2016-12-27 16:02:53,017 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 16:02:53,041 [20] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=99b8cff0-e947-4aa2-90bd-051a8ad62c1c
+2016-12-27 16:02:53,066 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=99b8cff0-e947-4aa2-90bd-051a8ad62c1c
+2016-12-27 16:02:53,066 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 16:04:33,041 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=fd69ced0-e983-4a95-a561-39d87a8e3ea6
+2016-12-27 16:04:34,664 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:04:34,664 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:04:34,674 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:04:37,967 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 16:04:37,967 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 16:04:37,967 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 16:04:37,967 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 16:04:37,967 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 16:04:37,977 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 16:04:37,992 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 16:04:38,002 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 16:04:38,004 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:04:38,006 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 16:04:38,053 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=fd69ced0-e983-4a95-a561-39d87a8e3ea6
+2016-12-27 16:04:38,073 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 16:04:38,083 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:04:40,147 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 46
+2016-12-27 16:04:40,148 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:04:40,508 [7] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 16:04:40,508 [7] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:04:40,513 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID fd69ced0-e983-4a95-a561-39d87a8e3ea6, Hostname localhost, IPv6Address 
+2016-12-27 16:04:40,595 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=fd69ced0-e983-4a95-a561-39d87a8e3ea6
+2016-12-27 16:04:41,157 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 51
+2016-12-27 16:04:41,157 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 16:06:37,159 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2016-12-27 16:06:37,190 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2016-12-27 16:07:47,124 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 16:07:47,124 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 16:13:04,805 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 16:13:04,806 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:16:49,556 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2016-12-27 16:16:49,557 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 16:18:02,582 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2016-12-27 16:18:02,583 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2016-12-27 16:18:22,585 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=fd69ced0-e983-4a95-a561-39d87a8e3ea6
+2016-12-27 16:18:22,588 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 16:18:22,593 [25] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=fd69ced0-e983-4a95-a561-39d87a8e3ea6
+2016-12-27 16:18:22,598 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=fd69ced0-e983-4a95-a561-39d87a8e3ea6
+2016-12-27 16:18:22,598 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 16:18:44,049 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=4d3c49fa-4056-4c32-9332-7c41b8dc83f4
+2016-12-27 16:18:46,551 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:18:46,552 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:18:46,561 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 16:18:52,102 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 16:18:52,112 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 16:18:52,112 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 16:18:52,112 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 16:18:52,112 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 16:18:52,122 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 16:18:52,132 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 16:18:52,132 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:18:52,132 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 16:18:52,253 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=4d3c49fa-4056-4c32-9332-7c41b8dc83f4
+2016-12-27 16:18:52,293 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 16:18:52,293 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:18:53,778 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 39
+2016-12-27 16:18:53,779 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:18:54,352 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 59
+2016-12-27 16:18:54,352 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 16:18:54,604 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 16:18:54,604 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:18:54,609 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 4d3c49fa-4056-4c32-9332-7c41b8dc83f4, Hostname localhost, IPv6Address 
+2016-12-27 16:18:54,689 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=4d3c49fa-4056-4c32-9332-7c41b8dc83f4
+2016-12-27 16:20:07,211 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=4d3c49fa-4056-4c32-9332-7c41b8dc83f4
+2016-12-27 16:20:07,213 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 16:20:07,262 [17] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=4d3c49fa-4056-4c32-9332-7c41b8dc83f4
+2016-12-27 16:20:07,314 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=4d3c49fa-4056-4c32-9332-7c41b8dc83f4
+2016-12-27 16:20:07,315 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 16:20:22,983 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=d1c924fd-a8ea-42d3-be4d-3fb6352384d0
+2016-12-27 16:20:24,774 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:20:24,774 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:20:24,780 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:20:29,261 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 16:20:29,262 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 16:20:29,263 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 16:20:29,263 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 16:20:29,264 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 16:20:29,265 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 16:20:29,266 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 16:20:29,267 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 16:20:29,268 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 16:20:29,269 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 16:20:29,269 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 16:20:29,270 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 16:20:29,271 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 16:20:29,272 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 16:20:29,284 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 16:20:29,293 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 16:20:29,295 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:20:29,296 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 16:20:29,340 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=d1c924fd-a8ea-42d3-be4d-3fb6352384d0
+2016-12-27 16:20:29,366 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 16:20:29,377 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:20:31,446 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 48
+2016-12-27 16:20:31,446 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:20:31,668 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 16:20:31,668 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:20:31,673 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID d1c924fd-a8ea-42d3-be4d-3fb6352384d0, Hostname localhost, IPv6Address 
+2016-12-27 16:20:31,744 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=d1c924fd-a8ea-42d3-be4d-3fb6352384d0
+2016-12-27 16:20:32,451 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 52
+2016-12-27 16:20:32,451 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 16:21:01,388 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=d1c924fd-a8ea-42d3-be4d-3fb6352384d0
+2016-12-27 16:21:01,395 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 16:21:01,430 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=d1c924fd-a8ea-42d3-be4d-3fb6352384d0
+2016-12-27 16:21:01,431 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 16:21:01,439 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=Application abort), serverId=d1c924fd-a8ea-42d3-be4d-3fb6352384d0
+2016-12-27 16:21:28,405 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=2a270bd9-0b24-4d39-98dc-fe37d65351cd
+2016-12-27 16:21:30,001 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:21:30,001 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:21:30,001 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 16:21:34,249 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 16:21:34,259 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 16:21:34,259 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 16:21:34,259 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 16:21:34,259 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 16:21:34,269 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 16:21:34,269 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 16:21:34,279 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:21:34,279 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 16:21:34,385 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=2a270bd9-0b24-4d39-98dc-fe37d65351cd
+2016-12-27 16:21:34,435 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 16:21:34,445 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:21:36,488 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 16:21:36,488 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:21:36,488 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 2a270bd9-0b24-4d39-98dc-fe37d65351cd, Hostname localhost, IPv6Address 
+2016-12-27 16:21:36,548 [10] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=2a270bd9-0b24-4d39-98dc-fe37d65351cd
+2016-12-27 16:33:51,700 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 16:33:51,700 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:36:08,581 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 16:36:08,601 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 16:39:01,524 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=2a270bd9-0b24-4d39-98dc-fe37d65351cd
+2016-12-27 16:39:01,524 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 16:39:01,534 [18] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=2a270bd9-0b24-4d39-98dc-fe37d65351cd
+2016-12-27 16:39:01,544 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=2a270bd9-0b24-4d39-98dc-fe37d65351cd
+2016-12-27 16:39:01,544 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 16:39:16,317 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=03527937-7c23-490e-a44f-6b54b47c1608
+2016-12-27 16:39:17,967 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:39:17,967 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:39:17,967 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:39:22,354 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 16:39:22,354 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 16:39:22,354 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 16:39:22,354 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 16:39:22,354 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 16:39:22,354 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 16:39:22,354 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 16:39:22,364 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 16:39:22,364 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 16:39:22,364 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 16:39:22,364 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 16:39:22,364 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 16:39:22,364 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 16:39:22,364 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 16:39:22,374 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 16:39:22,384 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 16:39:22,384 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:39:22,384 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 16:39:22,434 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=03527937-7c23-490e-a44f-6b54b47c1608
+2016-12-27 16:39:22,454 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 16:39:22,464 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:39:24,407 [13] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 16:39:24,407 [13] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:39:24,417 [13] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 03527937-7c23-490e-a44f-6b54b47c1608, Hostname localhost, IPv6Address 
+2016-12-27 16:39:24,467 [13] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=03527937-7c23-490e-a44f-6b54b47c1608
+2016-12-27 16:41:44,529 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 16:41:44,530 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:43:11,780 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 16:43:11,800 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 16:45:03,321 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=03527937-7c23-490e-a44f-6b54b47c1608
+2016-12-27 16:45:03,323 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 16:45:03,329 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=03527937-7c23-490e-a44f-6b54b47c1608
+2016-12-27 16:45:03,337 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=03527937-7c23-490e-a44f-6b54b47c1608
+2016-12-27 16:45:03,338 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 16:45:23,723 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=c22b73ab-6279-4bcd-9aa4-2d4c53f69a69
+2016-12-27 16:45:25,277 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:45:25,277 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:45:25,287 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:45:28,519 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 16:45:28,520 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 16:45:28,521 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 16:45:28,522 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 16:45:28,523 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 16:45:28,524 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 16:45:28,524 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 16:45:28,525 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 16:45:28,526 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 16:45:28,526 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 16:45:28,527 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 16:45:28,528 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 16:45:28,528 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 16:45:28,529 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 16:45:28,537 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 16:45:28,545 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 16:45:28,547 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:45:28,548 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 16:45:28,590 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=c22b73ab-6279-4bcd-9aa4-2d4c53f69a69
+2016-12-27 16:45:28,610 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 16:45:28,615 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:45:30,686 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 16:45:30,686 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:45:30,696 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID c22b73ab-6279-4bcd-9aa4-2d4c53f69a69, Hostname localhost, IPv6Address 
+2016-12-27 16:45:30,756 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=c22b73ab-6279-4bcd-9aa4-2d4c53f69a69
+2016-12-27 16:47:16,193 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 16:47:16,197 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:48:58,602 [8] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 16:48:58,622 [8] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 16:52:18,962 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=c22b73ab-6279-4bcd-9aa4-2d4c53f69a69
+2016-12-27 16:52:18,964 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 16:52:18,986 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=c22b73ab-6279-4bcd-9aa4-2d4c53f69a69
+2016-12-27 16:52:18,989 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=c22b73ab-6279-4bcd-9aa4-2d4c53f69a69
+2016-12-27 16:52:18,990 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 16:52:57,658 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=1e5250f6-7526-4cf4-a71e-6e838a101a70
+2016-12-27 16:52:59,804 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 16:52:59,805 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 16:52:59,813 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 16:53:04,535 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 16:53:04,535 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 16:53:04,535 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 16:53:04,535 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 16:53:04,545 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 16:53:04,555 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 16:53:04,565 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 16:53:04,565 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:53:04,565 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 16:53:04,595 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=1e5250f6-7526-4cf4-a71e-6e838a101a70
+2016-12-27 16:53:04,615 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 16:53:04,625 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 16:53:06,691 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 45
+2016-12-27 16:53:06,692 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 16:53:06,934 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 16:53:06,935 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 16:53:06,940 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 1e5250f6-7526-4cf4-a71e-6e838a101a70, Hostname localhost, IPv6Address 
+2016-12-27 16:53:07,011 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=1e5250f6-7526-4cf4-a71e-6e838a101a70
+2016-12-27 16:53:10,751 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 51
+2016-12-27 16:53:10,751 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 16:54:49,307 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2016-12-27 16:54:49,333 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2016-12-27 16:55:44,065 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 16:55:44,066 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 17:00:16,305 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=1e5250f6-7526-4cf4-a71e-6e838a101a70
+2016-12-27 17:00:16,307 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 17:00:16,316 [17] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=1e5250f6-7526-4cf4-a71e-6e838a101a70
+2016-12-27 17:00:16,325 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=1e5250f6-7526-4cf4-a71e-6e838a101a70
+2016-12-27 17:00:16,326 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 17:02:19,145 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=06ec5e82-f9c7-4f66-ace1-91fe63f01269
+2016-12-27 17:02:20,726 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 17:02:20,727 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 17:02:20,731 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 17:02:25,088 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 17:02:25,088 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 17:02:25,088 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 17:02:25,088 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 17:02:25,088 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 17:02:25,098 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 17:02:25,108 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 17:02:25,118 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 17:02:25,118 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 17:02:25,118 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 17:02:25,168 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=06ec5e82-f9c7-4f66-ace1-91fe63f01269
+2016-12-27 17:02:25,188 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 17:02:25,188 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 17:02:27,129 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 17:02:27,129 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 17:02:27,129 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 06ec5e82-f9c7-4f66-ace1-91fe63f01269, Hostname localhost, IPv6Address 
+2016-12-27 17:02:27,189 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=06ec5e82-f9c7-4f66-ace1-91fe63f01269
+2016-12-27 17:19:55,765 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 17:19:55,765 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 17:23:11,002 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2016-12-27 17:23:11,003 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 17:24:32,203 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2016-12-27 17:24:32,223 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2016-12-27 17:24:57,545 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 17:24:57,545 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 17:27:20,897 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 17:27:20,898 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 17:27:53,437 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2016-12-27 17:27:53,438 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2016-12-27 17:30:48,142 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2016-12-27 17:30:48,143 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2016-12-27 17:37:05,839 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 17:37:05,839 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 17:38:40,349 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 17:38:40,349 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 17:42:03,759 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 17:42:03,759 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 17:44:35,960 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 17:44:35,960 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 17:46:30,690 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 17:46:30,690 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 17:59:27,603 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2016-12-27 17:59:27,603 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2016-12-27 18:00:32,502 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2016-12-27 18:00:32,502 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2016-12-27 18:05:26,382 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=06ec5e82-f9c7-4f66-ace1-91fe63f01269
+2016-12-27 18:05:26,382 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2016-12-27 18:05:26,398 [25] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=), serverId=06ec5e82-f9c7-4f66-ace1-91fe63f01269
+2016-12-27 18:05:26,398 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=06ec5e82-f9c7-4f66-ace1-91fe63f01269
+2016-12-27 18:05:26,398 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2016-12-27 18:05:43,481 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=0f69d06a-afff-4cd6-be1b-074589f098fa
+2016-12-27 18:05:44,980 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2016-12-27 18:05:44,980 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2016-12-27 18:05:44,995 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2016-12-27 18:05:46,929 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2016-12-27 18:05:46,929 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2016-12-27 18:05:46,945 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2016-12-27 18:05:46,961 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (未能找到文件“F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config”。)
+2016-12-27 18:05:46,961 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2016-12-27 18:05:46,961 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 18:05:46,961 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2016-12-27 18:05:47,039 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=0f69d06a-afff-4cd6-be1b-074589f098fa
+2016-12-27 18:05:47,070 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=F:\GitHub\projects\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2016-12-27 18:05:47,085 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2016-12-27 18:05:47,902 [10] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2016-12-27 18:05:47,902 [10] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2016-12-27 18:05:47,902 [10] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.1.9, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 0f69d06a-afff-4cd6-be1b-074589f098fa, Hostname localhost, IPv6Address 
+2016-12-27 18:05:47,965 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=0f69d06a-afff-4cd6-be1b-074589f098fa

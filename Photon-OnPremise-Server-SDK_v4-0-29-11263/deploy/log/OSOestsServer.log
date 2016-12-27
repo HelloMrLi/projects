@@ -1,18 +1,1 @@
-﻿Y2016-12-26 22:10:39,115 [6] DEBUG OestsServer.ClientPeer - A client is connect.2
-2016-12-26 22:12:18,295 [6] DEBUG OestsServer.ClientPeer - A client is disconnect.
-2016-12-26 22:27:13,328 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=OestsServer
-2016-12-26 22:27:13,352 [1] DEBUG OestsServer.OestsApplication - application TearDown 
-2016-12-26 22:27:13,352 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=OestsServer
-2016-12-26 22:29:44,862 [1] DEBUG OestsServer.Handlers.HandlerBase - Hanlder:LoginHandler  is register.
-2016-12-26 22:29:44,874 [1] DEBUG OestsServer.Handlers.HandlerBase - Hanlder:LoadMajorListHandler  is register.
-2016-12-26 22:29:44,875 [1] DEBUG OestsServer.Handlers.HandlerBase - Hanlder:ServerHandler  is register.
-2016-12-26 22:29:44,875 [1] DEBUG OestsServer.OestsApplication - application setup complete
-2016-12-26 22:29:44,876 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=OestsServer; AppPath=E:\GithubRepositories\OESTS\projects-master\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\OestsServer, Type=OestsServer.OestsApplication 
-2016-12-26 22:30:05,352 [13] DEBUG OestsServer.ClientPeer - A client is connect.2
-2016-12-26 22:30:20,522 [12] DEBUG OestsServer.ClientPeer - A client is disconnect.
-2016-12-26 22:31:41,617 [16] DEBUG OestsServer.ClientPeer - A client is connect.3
-2016-12-26 22:43:38,294 [9] DEBUG OestsServer.ClientPeer - A client is disconnect.
-2016-12-26 23:38:19,289 [10] DEBUG OestsServer.ClientPeer - A client is connect.4
-2016-12-26 23:38:31,320 [13] DEBUG OestsServer.ClientPeer - A client is disconnect.
-2016-12-26 23:39:56,926 [6] DEBUG OestsServer.ClientPeer - A client is connect.5
-2016-12-26 23:41:33,244 [6] DEBUG OestsServer.ClientPeer - A client is disconnect.
+﻿

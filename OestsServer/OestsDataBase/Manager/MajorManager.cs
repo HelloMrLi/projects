@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using OestsCommon.Model;
 
-namespace OestsServer.DB.Manager
+namespace OestsDataBase.Manager
 {
    public class MajorManager
     {

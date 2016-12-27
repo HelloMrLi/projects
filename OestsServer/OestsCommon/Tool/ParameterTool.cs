@@ -13,7 +13,5 @@ namespace OestsCommon.Tool
             parameters.TryGetValue((byte)operationCode, out o);
             return JsonMapper.ToObject<T>(o.ToString());
         }
-
-
     }
 }
