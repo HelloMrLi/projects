@@ -1,6 +1,9 @@
 ﻿
 namespace OestsCommon.Model
 {
+    /// <summary>
+    /// 区域
+    /// </summary>
     public class Area
     {
         /// <summary>

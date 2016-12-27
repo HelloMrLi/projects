@@ -3,6 +3,9 @@ using System;
 
 namespace OestsCommon.Model
 {
+    /// <summary>
+    /// 教员
+    /// </summary>
     [Serializable]
     public class Teacher : User
     {

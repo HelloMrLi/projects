@@ -17,18 +17,13 @@ namespace OestsServer.Handlers
         }
         public override OperationCode OpCode { get { return OperationCode.LoadMajorList; } }
 
-        public override OperationResponse OnOperationMessage(OperationRequest request)
+        public override void OnHandlerMessage(OperationRequest request, OperationResponse response, ClientPeer peer)
         {
             List<Major> list = manager.GetData();
             string json = JsonMapper.ToJson(list);
-            Dictionary<byte, object> parameters = new Dictionary<byte, object>(); 
-            parameters.Add((byte)ParameterCode.MajorList, json);
-
-            OperationResponse response = new OperationResponse();
             response.ReturnCode = (short)ReturnCode.Success;
-            response.Parameters = parameters;
-            response.OperationCode = request.OperationCode;
-            return response;
+            response.Parameters.Add((byte)ParameterCode.MajorList, json);
+
         }
     }
 }

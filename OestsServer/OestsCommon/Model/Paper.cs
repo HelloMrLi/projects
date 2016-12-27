@@ -3,6 +3,9 @@
 namespace OestsCommon.Model
 {
 
+    /// <summary>
+    /// 试卷
+    /// </summary>
     public class Paper
     {
         public int Id { get; set; }

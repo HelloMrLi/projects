@@ -5,6 +5,9 @@ using System.Text;
 
 namespace OestsCommon.Tool
 {
+    /// <summary>
+    /// 工具类
+    /// </summary>
     public static class ParameterTool
     {
         public static T GetParameter<T>(Dictionary<byte, object> parameters, OperationCode operationCode)

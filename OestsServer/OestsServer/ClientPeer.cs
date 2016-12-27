@@ -1,19 +1,22 @@
 ﻿using Photon.SocketServer;
 using PhotonHostRuntimeInterfaces;
 using OestsServer.Handlers;
-using ExitGames.Logging; 
+using ExitGames.Logging;
+using OestsCommon.Model;
 
 namespace OestsServer
 {
-   public class ClientPeer: Photon.SocketServer.ClientPeer
+    public class ClientPeer : Photon.SocketServer.ClientPeer
     {
-        
+
+        //当前登录的用户
+        public User LoginUser { get; set; }
+
         private static readonly ILogger log = ExitGames.Logging.LogManager.GetCurrentClassLogger();
 
         public ClientPeer(InitRequest initRequest) : base(initRequest)
         {
-            
-            log.Debug("A client is connect." + initRequest.ConnectionId);
+            log.Debug("A client is connect." + ConnectionId);
 
         }
 
@@ -23,7 +26,7 @@ namespace OestsServer
             //{
             //    OestsApplication.Instance.clientPeerListForTeam.Remove(this);
             //}
-            log.Debug("A client is disconnect.");
+            log.Debug("A client is disconnect." + ConnectionId);
         }
 
         protected override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters)
@@ -32,8 +35,10 @@ namespace OestsServer
             OestsApplication.Instance.handlers.TryGetValue(operationRequest.OperationCode, out handler);
             if (handler != null)
             {
-                OperationResponse response;
-                response = handler.OnOperationMessage(operationRequest);
+                OperationResponse response = new OperationResponse();
+                response.Parameters = new System.Collections.Generic.Dictionary<byte, object>();
+                response.OperationCode = operationRequest.OperationCode;
+                handler.OnHandlerMessage(operationRequest, response, this);
                 SendOperationResponse(response, sendParameters);
             }
             else

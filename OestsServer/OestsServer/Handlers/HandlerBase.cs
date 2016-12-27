@@ -14,7 +14,7 @@ namespace OestsServer.Handlers
             log.Debug("Hanlder:" + this.GetType().Name + "  is register.");
         }
 
-        public abstract OperationResponse OnOperationMessage(OperationRequest request);
+        public abstract void OnHandlerMessage(OperationRequest request,OperationResponse response,ClientPeer peer);
 
     }
 }

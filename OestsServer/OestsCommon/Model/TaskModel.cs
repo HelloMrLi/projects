@@ -1,6 +1,8 @@
 ﻿namespace OestsCommon.Model
 {
-
+    /// <summary>
+    /// 任务
+    /// </summary>
     public class TaskModel
     {
         /// <summary>

@@ -2,7 +2,9 @@
 
 namespace OestsCommon.Model
 {
-
+    /// <summary>
+    /// 学员
+    /// </summary>
     public class Student : User
     {
 

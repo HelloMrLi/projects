@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace OestsCommon.Model
 {
+    /// <summary>
+    /// 实训组
+    /// </summary>
     public class TrainGroup
     {
         public int Id { get; set; }

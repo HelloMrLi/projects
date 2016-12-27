@@ -1,6 +1,9 @@
 ﻿
 namespace OestsCommon
 {
+    /// <summary>
+    /// 参数code
+    /// </summary>
     public enum ParameterCode : byte
     {
         /// <summary>

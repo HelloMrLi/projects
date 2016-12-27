@@ -20,10 +20,9 @@ namespace OestsServer.Handlers
 
         public override OperationCode OpCode { get { return OperationCode.Login; } }
 
-        public override OperationResponse OnOperationMessage(OperationRequest request)
+        public override void OnHandlerMessage(OperationRequest request, OperationResponse response, ClientPeer peer)
         {
             User u = request.Parameters.GetValue<User>(ParameterCode.User);
-            OperationResponse response = new OperationResponse();
 
             /////////////////// 获得 数据库中的 user/////////////////////
 
@@ -36,12 +35,9 @@ namespace OestsServer.Handlers
                 UserDB = manager.GetAdminByUserName(u.Name);
             else
             {
+                peer.LoginUser = u;
                 //游客 直接返回
                 response.ReturnCode = (short)ReturnCode.Success;
-                response.OperationCode = request.OperationCode;
-                Dictionary<byte, object> parameters = new Dictionary<byte, object>();
-                response.Parameters = parameters;
-                return response;
             }
             /////////////////// 用户验证/////////////////////
 
@@ -49,14 +45,14 @@ namespace OestsServer.Handlers
             {
                 if (u.PWD == UserDB.PWD)
                 {
+                    peer.LoginUser = u;
+
                     response.ReturnCode = (short)ReturnCode.Success;
-                    response.OperationCode = request.OperationCode;
                     Dictionary<byte, object> parameters = new Dictionary<byte, object>();
                     string json = JsonMapper.ToJson(UserDB);
                     parameters.Add((byte)ParameterCode.User, json);
                     response.Parameters = parameters;
-                    return response;
-
+                   
                     //TODO:判断是否在线
                 }
                 else 
@@ -66,9 +62,7 @@ namespace OestsServer.Handlers
                     response.OperationCode = request.OperationCode;
                     Dictionary<byte, object> parameters = new Dictionary<byte, object>();
                     response.Parameters = parameters;
-                    return response;
                 }
-                
             }
             else
             {
@@ -77,7 +71,6 @@ namespace OestsServer.Handlers
                 response.OperationCode = request.OperationCode;
                 Dictionary<byte, object> parameters = new Dictionary<byte, object>();
                 response.Parameters = parameters;
-                return response;
             }
         }
     }

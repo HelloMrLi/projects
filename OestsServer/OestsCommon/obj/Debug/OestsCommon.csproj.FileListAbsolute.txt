@@ -11,3 +11,4 @@ F:\GitHub\projects\OestsServer\OestsCommon\bin\Debug\LitJson.dll
 F:\GitHub\projects\OestsServer\OestsCommon\obj\Debug\OestsCommon.csprojResolveAssemblyReference.cache
 F:\GitHub\projects\OestsServer\OestsCommon\obj\Debug\OestsCommon.dll
 F:\GitHub\projects\OestsServer\OestsCommon\obj\Debug\OestsCommon.pdb
+E:\GithubRepositories\OESTS\projects-master\OestsServer\OestsCommon\bin\Debug\LitJson.dll
